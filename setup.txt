@@ -1,0 +1,27 @@
+Autobuses Backend
+
+El presente archivo fue creado con la finalidad de brindar información sobre el proyecto.
+
+Esta información debería estar en el archivo README.md. Si bien esta versión se encuentra en un fork, no fue realizado de esa manera para no modificar el README original.
+
+Proyecto CRUD reservas autobuses.
+
+Tecnologías utilizadas:
+* Java (JDK 8)
+* Spring Boot
+* MySQL (ver archivo /scripts/script.sql)
+* Maven
+
+Instalación de ambiente de desarrollo
+
+1) Descargar el proyecto.
+
+2) Descargar  las dependencias mediante maven, para esto ejecutar mvn clean install o update maven desde IDE Eclipse.
+
+3) Crear en MySQL la base de datos con su modelo. Para esto se debe ejecutar el archivo /scripts/script.sql
+
+4) Ejecutar el proyecto Spring Boot. Para esto, si utilizamos la IDE Eclipse, hay que ejecutar la clase Application.java como Run As Java Application.
+
+5) Listo, tienes tu backend en localhost:8080
+
+6) Puedes probar la API rest importando en Postman el archivo Autobuses.postman_collection.json
